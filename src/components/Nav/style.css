@@ -6,20 +6,21 @@ a, a:visited {
     color: #9ebad7;
 }
 
+.navbar-brand {
+    background-color:#467db5;
+}
+
 a:hover {
     color: #cccccc;
 }
 
 nav {
-    background-color: #777777;
-}
-.navbar-brand {
-    background-color:#467db5;
-    color: #ffffff;
+    background-color: #666666;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     font-weight: bolder;
+    color: whitesmoke;
 }
