@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./style.css";
 
 function Nav() {
@@ -6,14 +7,14 @@ function Nav() {
         <div>
             <nav className="navbar p-0 justify-content-around navbar-light" role="navigation">
 
-                <a className="navbar-brand p-sm-3 p-md-3 p-lg-3 px-5 py-3" href="index.html"><h1>Sarah Dillard</h1></a>
+                <Link className="navbar-brand p-sm-3 p-md-3 p-lg-3 px-5 py-3" to="/"><h1>Sarah Dillard</h1></Link>
 
                 {/* <!-- Start main navigation links --> */}
                 <div className="navbar">
-                    <a className="nav-link" href="index.html">About</a> 
-                    <a className="nav-link" href="test.html">|</a>
-                    <a className="nav-link" href="portfolio.html">Portfolio</a><a class="nav-link" href="test.html">|</a>
-                    <a className="nav-link" href="contact.html">Contact</a>
+                    <Link className="nav-link" to="/about">About</Link> 
+                    <Link className="nav-link" to="/about">|</Link>
+                    <Link className="nav-link" to="/portfolio">Portfolio</Link><Link className="nav-link" to="/contact">|</Link>
+                    <Link className="nav-link" to="/contact">Contact</Link>
 
                 </div>
                 {/* <!-- End main navigation links-->     */}
