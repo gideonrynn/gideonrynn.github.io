@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css";
 
-export const Nav = () => {
+function Nav() {
     return (
         <div>
             <nav className="navbar p-0 justify-content-around navbar-light" role="navigation">
@@ -22,3 +22,5 @@ export const Nav = () => {
         </div>
     )
 }
+
+export default Nav;
