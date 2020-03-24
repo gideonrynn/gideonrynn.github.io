@@ -10,7 +10,7 @@ const Portfolio = () => {
         // for each project in the list, create a project card 
         <div>
             {projects.map(project => (
-                <Project title={project.title} screenshot={project.screenshot}/>
+                <Project key={project.id} title={project.title} screenshot={project.screenshot} image_alt={project.image_alt} app_link={project.app_link} github_link={project.github_link} stretched_link={project.stretched_link}/>
             ))}
 
         </div>

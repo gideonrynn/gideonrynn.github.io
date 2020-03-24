@@ -1,32 +1,40 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
 import "./style.css";
+import { Col } from 'react-bootstrap';
 
 
-const Project = ({title}) => {
+const Project = ({title, screenshot, image_alt, app_link, github_link, stretched_link }) => {
     return (
+        <Col>
         <div className="col-lg-4 col-md-6 col-sm-12 my-1">
 
-                        <div className="card card-hov bg-white text-white mw-100 mh-100">
+            <div className="card card-hov bg-white text-white mw-100 mh-100">
 
                             
-                            <img className="card-img" src="assets/images/harvey.jpg" alt="Harvey"/>
+                <img className="card-img" src={screenshot} alt={image_alt}/>
 
-                            <div className="card-img-overlay d-flex justify-content-center align-items-end">
+                    <div className="card-img-overlay d-flex justify-content-center align-items-end">
 
-                                <p className="card-text p-2">{title}</p>
+                        <p className="card-text p-2">{title}
 
-                                <a href="https://fathomless-lake-45236.herokuapp.com/" className="stretched-link" target="_blank"></a>
+                        <br/>
+                            <a href={app_link} target="_blank"> App</a> 
+                                    &nbsp;<a href="#" target="_blank"> | </a>&nbsp;
+                                    <a href={github_link} target="_blank"> Repo </a>
 
-                            </div>
+                        </p>
 
-                        </div>
+                        <a href={stretched_link} className="stretched-link" target="_blank"></a>
 
-                        <p className="card-content border rounded text-center"><a href="https://github.com/gideonrynn/feed-harvey-food-logger-hw13">Link to Repo</a></p>
+                    </div> 
 
-                    </div>
-               
+            </div>
+
+        </div>
+        </Col>    
     )
 }
 
