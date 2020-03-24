@@ -3,12 +3,12 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
 import "./style.css";
-import { Col } from 'react-bootstrap';
+
 
 
 const Project = ({title, screenshot, image_alt, app_link, github_link, stretched_link }) => {
     return (
-        <Col>
+       
         <div className="col-lg-4 col-md-6 col-sm-12 my-1">
 
             <div className="card card-hov bg-white text-white mw-100 mh-100">
@@ -34,7 +34,7 @@ const Project = ({title, screenshot, image_alt, app_link, github_link, stretched
             </div>
 
         </div>
-        </Col>    
+           
     )
 }
 
