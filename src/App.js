@@ -7,19 +7,22 @@ import Footer from './components/Footer/index.js';
 import About from './pages/About/index.js';
 import Portfolio from './pages/Portfolio/index.js';
 import Contact from './pages/Contact/index.js';
+import { ProjectProvider } from './context/ProjectContext'
 import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div classtitle="App">
         <Nav/>
-          <Switch>
-            <Route path="/" exact component={About}/>
-            <Route path="/about" exact component={About}/>
-            <Route path="/portfolio" exact component={Portfolio}/>
-            <Route path="/contact" exact component={Contact}/>
-          </Switch>
+        <ProjectProvider>
+            <Switch>
+              <Route path="/" exact component={About}/>
+              <Route path="/about" component={About}/>
+              <Route path="/portfolio" component={Portfolio}/>
+              <Route path="/contact" component={Contact}/>
+            </Switch>
+          </ProjectProvider>
           <Header/>
           <Footer/>
       </div>

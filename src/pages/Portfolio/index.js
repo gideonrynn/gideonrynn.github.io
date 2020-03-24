@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
+import Project from "../../components/Project"
+import { ProjectContext } from '../../context/ProjectContext'
 
-function Portfolio() {
+const Portfolio = () => {
+
+    const [projects, setProjects] = useContext(ProjectContext);
+
     return (
-      <div>
-      
-      </div>
+        // for each project in the list, create a project card 
+        <div>
+            {projects.map(project => (
+                <Project title={project.title} screenshot={project.screenshot}/>
+            ))}
+
+        </div>
     );
   }
   
