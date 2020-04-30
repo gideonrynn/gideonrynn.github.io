@@ -36,17 +36,15 @@ function About() {
  
                              {/* <!-- Start Sub Column 2 of 2 --> */}
                              <div className="col-lg-9 col-md-9 col-sm-12">
- 
-                                 <p>I am a business analyst currently attending the Northwestern Coding Bootcamp toward certification as a Full Stack Web Developer. Seeking opportunities for new projects!
-                                 </p>
                          
-                                 <p>As a business analyst at Northwestern University, I specialize in workflow management, production and development support, and project management services.
+                                 <p>As a developer at Northwestern University, I provide production and development support for enterprise applications. I have three years' experience as a business analyst specializing in workflow management and project management services, and received certification as a Full Stack Web Developer at the Northwestern School of Professional Studies.
                                  </p>
                                  {/* <p>In addition to my professional concentrations, my personal interests include videogames (ex/<a href="https://www.playstation.com/en-us/games/detroit-become-human-ps4" target="_blank">Detroit: Become Human</a> for PS4), sci fi content (ex/<a href="https://www.syfy.com/theexpanse/about" target="_blank">The Expanse</a>),  comic books and participation in <a href="https://www.c2e2.com/" target="_blank">comic conventions</a>. I also care for over 20 plants year-around, and maintain two "planted" aquariums, one of which includes my 5 year old fancy goldfish!</p>  */}
                                      
-                                 <p> <a href="contact.html">Contact me</a> for interest in my <a href="portfolio.html">existing bootcamp projects</a> or inquiries regarding new project requests. Find me on <a href="https://www.linkedin.com/in/sarahcdillard/" target="_blank">LinkedIn</a> and <a href="https://github.com/gideonrynn" target="_blank">GitHub</a>. Resume <a href={resume} target="_blank">here</a>.</p>
- 
+                                 <p> <a href="contact.html">Contact me</a> for interest in my <a href="portfolio.html"> bootcamp projects</a> or inquiries regarding new project requests. Find me on <a href="https://www.linkedin.com/in/sarahcdillard/" target="_blank">LinkedIn</a> and <a href="https://github.com/gideonrynn" target="_blank">GitHub</a>.
+                                </p>
                              </div>
+                            
                                  <br></br>
                                  
                              {/* <!-- End Sub Column 2 of 2  --> */}

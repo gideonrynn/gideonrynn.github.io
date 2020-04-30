@@ -14,12 +14,12 @@ export const ProjectProvider = (props) => {
   const [projects, setProjects] = useState([
     {
       category: "features",
-      title: "Feed Harvey Logger",
+      title: "Feed Harvey",
       screenshot: harvey,
       image_alt: "Harvey Image",
-      app_link: "https://fathomless-lake-45236.herokuapp.com/",
+      app_link: "https://feedharvey.herokuapp.com/",
       github_link: "https://github.com/gideonrynn/feed-harvey-food-logger-hw13",
-      stretched_link: "https://fathomless-lake-45236.herokuapp.com/",
+      stretched_link: "https://feedharvey.herokuapp.com/",
       id: "1"
       
     },
@@ -75,9 +75,9 @@ export const ProjectProvider = (props) => {
         title: "Duly Noted Note Taker",
         screenshot: dulynoted,
         image_alt: "TeamSprite Image",
-        app_link: "https://hidden-retreat-96452.herokuapp.com/",
+        app_link: "https://dulynoted-notetaker.herokuapp.com/",
         github_link: "https://github.com/gideonrynn/dulynoted-note-taker-hw11",
-        stretched_link: "https://hidden-retreat-96452.herokuapp.com/",
+        stretched_link: "https://dulynoted-notetaker.herokuapp.com/",
         id: "6"
         
       }
