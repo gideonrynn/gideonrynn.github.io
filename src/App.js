@@ -12,21 +12,23 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div classtitle="App">
-        <Nav/>
-        <ProjectProvider>
-            <Switch>
-              <Route path="/" exact component={About}/>
-              <Route path="/about" component={About}/>
-              <Route path="/portfolio" component={Portfolio}/>
-              <Route path="/contact" component={Contact}/>
-            </Switch>
-          </ProjectProvider>
-          <Header/>
-          <Footer/>
+    <>
+      <div className="App AppContent">
+        <Router>
+          <Nav/>
+          <ProjectProvider>
+              <Switch>
+                <Route path="/" exact component={About}/>
+                <Route path="/about" component={About}/>
+                <Route path="/portfolio" component={Portfolio}/>
+                <Route path="/contact" component={Contact}/>
+              </Switch>
+            </ProjectProvider>
+            <Header/>
+            <Footer className='Footer'/>
+        </Router>
       </div>
-    </Router>
+    </>
   );
 }
 
