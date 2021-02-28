@@ -1,10 +1,11 @@
 import React from 'react'
 
-function Header() {
+function Nav() {
     return (
         <div>
+            <p>Nav section</p>
         </div>
     )
 }
 
-export default Header;
+export default Nav;
