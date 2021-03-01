@@ -1,0 +1,20 @@
+.main-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-image: url(../../img/blackmamba2.png);
+  /* border-style: dotted; */
+  /* border-color: purple; */
+}
+
+.contact-text-content {
+  color: whitesmoke;
+  font-size: 3em;
+  
+}
+
+.contact-link-text {
+    text-decoration: none;
+}
+

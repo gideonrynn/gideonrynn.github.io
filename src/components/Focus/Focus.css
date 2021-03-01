@@ -1,0 +1,8 @@
+
+.main-focus {
+    /* border-style: dotted; */
+    /* border-color: yellow; */
+    box-shadow: var(--shadow);
+    background-image: url(../../img/dust_scratches.png);
+    height: 700px;
+}

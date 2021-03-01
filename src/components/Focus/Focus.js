@@ -1,8 +1,8 @@
-import React from 'react'
+import './Focus.css'
 
-function Focus() {
+const Focus = () => {
     return (
-        <div>
+        <div className="main-focus">
             <p>Focus section</p>
         </div>
     )

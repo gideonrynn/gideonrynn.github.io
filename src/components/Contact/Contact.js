@@ -1,9 +1,12 @@
-import React from 'react'
+import './Contact.css'
 
-function Contact() {
+const Contact = () => {
     return (
-        <div>
-            <p>Contact section</p>
+        <div className="main-contact">
+            <div className="contact-text-content">
+                <p>Contact me <a href="mailto:sarah.c.dillard@gmail.com" className="contact-link-text">here</a>.</p>
+            </div>
+            
         </div>
     )
 };

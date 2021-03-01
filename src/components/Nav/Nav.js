@@ -1,10 +1,10 @@
-import React from 'react'
+import './Nav.css'
 
-function Nav() {
+const Nav = () => {
     return (
-        <div>
-            <p>Nav section</p>
-        </div>
+        <nav className="main-nav">
+            <p className="nav-link-text">Nav section</p>
+        </nav>
     )
 }
 
