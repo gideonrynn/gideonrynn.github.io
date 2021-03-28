@@ -1,11 +1,12 @@
 .main-work {
-    /* border-style: dotted; */
-    /* border-color: orange; */
+    display: grid;
     background-color: #2f2f2f;
     height: 700px;
     background-image: url(../../img/dust_scratches.png);
+    /* border-style: dotted; */
+    /* border-color: orange; */
 }
 
-.main-text {
+/* .main-text {
     
-}
+} */
