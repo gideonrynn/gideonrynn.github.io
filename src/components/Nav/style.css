@@ -1,7 +1,3 @@
-.container {
-    display: flexbox
-}
-
 a, a:visited {
     color: #9ebad7;
 }
@@ -18,9 +14,9 @@ nav {
     background-color: #666666;
 }
 
-h1 {
+/* h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     font-weight: bolder;
     color: whitesmoke;
-}
+} */

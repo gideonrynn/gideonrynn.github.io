@@ -1,0 +1,22 @@
+
+
+
+.contact-content {
+
+    /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    margin: 0!important;
+    /* padding: 0; */
+    height: 600px;
+    padding: 60px;
+    background-color: #14110f!important;
+}
+
+p {
+    margin: 0!important;
+}

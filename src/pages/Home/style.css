@@ -1,0 +1,28 @@
+/* .wrapper {
+    background-color: #ffffff;
+}
+
+.sectionheading {
+    border-bottom: 3px solid #cccccc;
+    color: #759dc7;
+} */
+
+/* container fluid takes up 100% width of the screen */
+.container-fluid {
+    height: 100%;
+    margin: 0;
+    padding: 0!important; /* can also apply className="p-0" if this will cause later issues*/
+}
+
+/* body {
+    height: 100vh;
+} */
+
+/* .ProjectUpdate {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #34312d;
+} */

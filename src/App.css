@@ -1,11 +1,10 @@
-body {
-    background-image: url("./images/seigaiha.png");
-}
-
 .AppContent {
     flex: 1 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* justify-content: space-between; */
 }
 
 .Footer {
     flex-shrink: 0;
 }
+

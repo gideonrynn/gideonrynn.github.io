@@ -3,9 +3,11 @@ import "./style.css";
 
 function Footer() {
     return (
-        <div>
-            <footer className="footer text-center clearfix p-3">Copyright&copy;</footer>
-        </div>
+    
+            <div className="footer">
+                <p>Copyright&copy;</p>
+            </div>
+        
     )
 }
 
