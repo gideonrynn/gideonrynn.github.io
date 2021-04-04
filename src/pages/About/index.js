@@ -22,7 +22,7 @@ function About() {
                              
                          {/* <!-- Border applied to section heading --> */}
                      <div className="sectionheading m-3">
-                             <h1>About Me</h1>
+                             <h1 className="section-header">About Me</h1>
                          </div>
  
                          {/* <!-- Start Sub-Row --> */}

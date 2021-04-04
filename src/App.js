@@ -25,9 +25,10 @@ function App() {
               </Switch>
             </ProjectProvider>
             <Header/>
-            <Footer className='Footer'/>
+            
         </Router>
       </div>
+      <Footer className='Footer'/>
     </>
   );
 }

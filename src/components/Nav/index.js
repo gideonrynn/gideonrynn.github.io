@@ -7,7 +7,7 @@ function Nav() {
         <div>
             <nav className="navbar p-0 justify-content-around" role="navigation">
 
-                <Link className="navbar-brand p-sm-3 p-md-3 p-lg-3 px-5 py-3" to="/"><h1>Sarah Dillard</h1></Link>
+                <Link className="navbar-brand p-sm-3 p-md-3 p-lg-3 px-5 py-3" to="/"><h1 className="nav-header">Sarah Dillard</h1></Link>
 
                 {/* <!-- Start main navigation links --> */}
                 <div className="navbar">

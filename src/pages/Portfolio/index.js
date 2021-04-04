@@ -16,7 +16,7 @@ const Portfolio = () => {
             <div className="content m-5">
     
                 <div className="sectionheading">
-                    <h1>Projects</h1>
+                    <h1 className="section-header">Projects</h1>
                 </div>
             
            <Row>

@@ -4,5 +4,12 @@
 
 .sectionheading {
     border-bottom: 3px solid #cccccc;
-    color: #759dc7;
+    color: #9ebad7;
+}
+
+h1.section-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #9ebad7;
 }
